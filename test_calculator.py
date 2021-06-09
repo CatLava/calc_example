@@ -7,7 +7,6 @@ import calculator
 
 class TestCalculator:
 
-
     def test_addition(self):
         assert 4 == calculator.add(2, 2)
 
@@ -19,3 +18,4 @@ class TestCalculator:
 
     def test_division(self):
         assert 1 == calculator.divide(10, 10)
+        
